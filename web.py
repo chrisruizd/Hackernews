@@ -1,10 +1,4 @@
-# Cleaned up and more efficinet way of hacker news
-
-# always write at the end of the URL /robots.txt to know what you are allow to scrape
-# this project scrapes data from hackernews, only showing the news that have more than 100 votes
-# Scrapy is used instead of BeautifulSoup to scrape massive websites, is a better tools and using API, Scrapy is a framework line a whole new language
-# a library like BeautifulSoup is smaller
-#you can collect data with Scrapy and savi it in a database
+#Cleaning up Hacker news
 
 import imp
 import requests # allows you to download the html
